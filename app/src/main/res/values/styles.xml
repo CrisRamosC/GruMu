@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ConnectTheme" parent="@android:style/Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/back_login</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="App" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="Splash" parent="Theme.AppCompat.NoActionBar">
+
+    </style>
+
+    <style name="mainTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/back_login</item>
+    </style>
+
+    <style name="Theme.Custom" parent="@style/Theme.AppCompat.Light">
+
+    </style>
+
+    <style name="Custom.ActionBar.TabView.Empty" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@null</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="contParent">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="linearParent" parent="contParent">
+    </style>
+
+    <style name="layoutParent" parent="contParent">
+
+        <item name="android:padding">@dimen/margin_login</item>
+    </style>
+
+    <style name="contFillWrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="contFillWrap.contWrap">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="edtLogin" parent="contFillWrap">
+        <item name="android:textColorHint">@color/colorWhiteAlpha</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="txtLogin" parent="contFillWrap.contWrap">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="btnLogin">
+        <item name="android:background">@drawable/btn_ingresar</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="imgLogoLogin">
+        <item name="android:layout_width">@dimen/imgLogoLogin_dimens</item>
+        <item name="android:layout_height">@dimen/imgLogoLogin_dimens</item>
+        <item name="android:layout_marginTop">@dimen/imgLogoLogin_marginTop</item>
+        <item name="android:src">@drawable/icon_app_login</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="imgLogoHeader" parent="contFillWrap.contWrap">
+        <item name="android:layout_marginTop">@dimen/margin_login</item>
+        <item name="android:src">@drawable/logo_bancomer</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="buttonControll">
+        <item name="android:layout_width">@dimen/cero</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding_button_control</item>
+        <item name="android:textSize">10px</item>
+    </style>
+
+</resources>

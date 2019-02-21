@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhiteAlpha">#90ffffff</color>
+    <color name="colorWhiteAlpha_trans">#44ffffff</color>
+    <color name="colorBlue">#53BCEC</color>
+    <color name="colorWhite_2">#F2F2F2</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlueDark">#274B97</color>
+    <color name="colorBlueDark2">#4274e2</color>
+    <color name="colorTranparent">#00000000</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackTranparentIndicator">#99000000</color>
+    <color name="colorBlackTranparent">#44000000</color>
+    <color name="colorBlackTranparent2">#22000000</color>
+    <color name="colorBlackTranparent3">#00000000</color>
+    <color name="colorGray">#9e9e9e</color>
+    <color name="colorBlue2">#00B0FF</color>
+    <color name="colorBlue3">#92C0FF</color>
+    <color name="colorgreen">#86C82D</color>
+    <color name="colorgreenflag">#7fa87f</color>
+    <color name="colormagenta">#E40073</color>
+    <color name="colorAlpha30">#30000000</color>
+    <color name="colorRed">#d70311</color>
+    <color name="colorYellow">#FDBD2C</color>
+    <color name="colorGray2">#424242</color>
+    <color name="colorGrayText1">#3c3c3c</color>
+    <color name="magenta">#c8175e</color>
+    <color name="colorAlpha10">#10000000</color>
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_login"
+    style="@style/linearParent">
+
+    <ScrollView
+        style="@style/contParent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:id="@+id/relativeLogin"
+            android:paddingBottom="@dimen/margin_ten"
+            style="@style/layoutParent">
+
+
+            <ImageView
+                android:id="@+id/imgLogoLogin"
+                style="@style/imgLogoLogin"/>
+
+            <TextView
+                android:id="@+id/txt_pay_services"
+                style="@style/txtLogin"
+                android:text="Bienvenido a GrUmU"
+                android:layout_below="@+id/imgLogoLogin"/>
+
+            <EditText
+                android:id="@+id/edt_user"
+                style="@style/edtLogin"
+                android:layout_marginTop="@dimen/margin_forty"
+                android:layout_below="@id/txt_pay_services"
+                android:hint="Correo electronico"
+                android:inputType="textEmailAddress"
+                android:background="@null"
+                android:imeOptions="actionSend"/>
+
+            <ImageView
+                android:id="@+id/img_one"
+                android:layout_width="@dimen/margin_220"
+                android:layout_height="@dimen/margin_one"
+                android:layout_marginTop="@dimen/margin_three"
+                android:layout_below="@id/edt_user"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorBlue"/>
+
+            <EditText
+                android:id="@+id/edt_pass"
+                style="@style/edtLogin"
+                android:layout_marginTop="@dimen/margin_login"
+                android:layout_below="@id/img_one"
+                android:hint="Contraseña"
+                android:inputType="numberPassword"
+                android:background="@null"
+                android:maxLength="6"
+                android:imeOptions="actionSend"/>
+
+            <ImageView
+                android:id="@+id/img_two"
+                android:layout_width="@dimen/margin_220"
+                android:layout_height="@dimen/margin_one"
+                android:layout_marginTop="@dimen/margin_three"
+                android:layout_below="@id/edt_pass"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorBlue"/>
+
+            <TextView
+                android:id="@+id/txt_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Olvide mi contraseña"
+                android:textSize="@dimen/text_size_13"
+                android:textColor="@color/colorRed"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/img_two"
+                android:layout_marginTop="@dimen/margin_ten"
+                android:visibility="gone"
+                android:textAlignment="center" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/txt_password">
+
+                <Button
+                    android:id="@+id/btn_login"
+                    style="@style/btnLogin"
+                    android:layout_marginTop="@dimen/margin_ten"
+                    android:text="Ingresar"/>
+
+
+
+                <TextView
+                    android:id="@+id/txt_footer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="D.R. (c) TTR V 0.0.1"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/colorWhiteAlpha"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/btn_login"
+                    android:padding="@dimen/margin_twenty"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

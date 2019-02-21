@@ -1,0 +1,114 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="padding_button_control">12px</dimen>
+
+    <dimen name="margin_login">10dp</dimen>
+    <dimen name="imgLogoHeader_width">300dp</dimen>
+    <dimen name="imgLogoLogin_dimens">200dp</dimen>
+    <dimen name="imgLogoLogin_marginTop">35dp</dimen>
+
+    <dimen name="margin_0.3">0.3dp</dimen>
+    <dimen name="cero">0dp</dimen>
+    <dimen name="margin_one">1dp</dimen>
+    <dimen name="margin_two">2dp</dimen>
+    <dimen name="margin_three">3dp</dimen>
+    <dimen name="margin_four">4dp</dimen>
+    <dimen name="margin_five">5dp</dimen>
+    <dimen name="margin_six">6dp</dimen>
+    <dimen name="margin_eight">8dp</dimen>
+    <dimen name="margin_ten">10dp</dimen>
+    <dimen name="margin_eleven">11dp</dimen>
+    <dimen name="margin_twelve">12dp</dimen>
+    <dimen name="margin_thirteen">13dp</dimen>
+    <dimen name="margin_fourteen">14dp</dimen>
+    <dimen name="margin_fifteen">15dp</dimen>
+    <dimen name="margin_seventeen">17dp</dimen>
+    <dimen name="margin_eighteen">18dp</dimen>
+    <dimen name="margin_twenty">20dp</dimen>
+    <dimen name="margin_twenty_two">22dp</dimen>
+    <dimen name="margin_twenty_three">23dp</dimen>
+    <dimen name="margin_twenty_four">24dp</dimen>
+    <dimen name="margin_twenty_five">25dp</dimen>
+    <dimen name="margin_thirty">30dp</dimen>
+    <dimen name="margin_thirty_two">32dp</dimen>
+    <dimen name="margin_thirty_five">35dp</dimen>
+    <dimen name="margin_forty">40dp</dimen>
+    <dimen name="margin_forty_two">42dp</dimen>
+    <dimen name="margin_forty_five">45dp</dimen>
+    <dimen name="margin_forty_six">46dp</dimen>
+    <dimen name="margin_forty_seven">47dp</dimen>
+    <dimen name="margin_fifty">50dp</dimen>
+    <dimen name="margin_fifty_five">55dp</dimen>
+    <dimen name="margin_sixty">60dp</dimen>
+    <dimen name="margin_sixty_three">63dp</dimen>
+    <dimen name="margin_sixty_five">65dp</dimen>
+    <dimen name="margin_seventy">70dp</dimen>
+    <dimen name="margin_seventy_three">73dp</dimen>
+    <dimen name="margin_seventy_five">75dp</dimen>
+    <dimen name="margin_eighty">80dp</dimen>
+    <dimen name="margin_eighty_five">83dp</dimen>
+    <dimen name="margin_ninety">90dp</dimen>
+    <dimen name="margin_ninety_five">95dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_110">110dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_125">125dp</dimen>
+    <dimen name="margin_130">130dp</dimen>
+    <dimen name="margin_135">135dp</dimen>
+    <dimen name="margin_140">140dp</dimen>
+    <dimen name="margin_142">142dp</dimen>
+    <dimen name="margin_150">150dp</dimen>
+    <dimen name="margin_160">160dp</dimen>
+    <dimen name="margin_170">170dp</dimen>
+    <dimen name="margin_180">180dp</dimen>
+    <dimen name="margin_185">185dp</dimen>
+    <dimen name="margin_190">190dp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+    <dimen name="margin_220">220dp</dimen>
+    <dimen name="margin_230">230dp</dimen>
+    <dimen name="margin_235">235dp</dimen>
+    <dimen name="margin_250">250dp</dimen>
+    <dimen name="margin_260">260dp</dimen>
+    <dimen name="margin_280">280dp</dimen>
+    <dimen name="margin_283">283dp</dimen>
+    <dimen name="margin_300">300dp</dimen>
+    <dimen name="margin_385">385dp</dimen>
+    <dimen name="margin_400">400dp</dimen>
+    <dimen name="margin_450">450dp</dimen>
+    <dimen name="margin_1000">1000dp</dimen>
+    <dimen name="margin_1500">1000dp</dimen>
+
+    <dimen name="text_size_7">7px</dimen>
+    <dimen name="text_size_9">9px</dimen>
+    <dimen name="text_size_10">10px</dimen>
+    <dimen name="text_size_11">11px</dimen>
+    <dimen name="text_size_12">12px</dimen>
+    <dimen name="text_size_13">13px</dimen>
+    <dimen name="text_size">14px</dimen>
+    <dimen name="text_size_15">15px</dimen>
+    <dimen name="text_size_16">16px</dimen>
+    <dimen name="text_size_17">17px</dimen>
+    <dimen name="text_size_18">18px</dimen>
+    <dimen name="text_size_20">20px</dimen>
+    <dimen name="text_size_25">25px</dimen>
+    <dimen name="text_size_28">28px</dimen>
+    <dimen name="text_size_thirty">30px</dimen>
+    <dimen name="text_size_thirty_five">35px</dimen>
+    <dimen name="text_size_forty">40px</dimen>
+    <dimen name="text_size_45">45px</dimen>
+    <dimen name="text_size_fifty">50px</dimen>
+
+    <dimen name="dip_10">10dip</dimen>
+    <dimen name="dip_30">30dip</dimen>
+
+    <item name="float_0.2"  format="float" type="dimen">0.2</item>
+    <item name="float_0.05" format="float" type="dimen">0.05</item>
+    <item name="float_1.5"  format="float" type="dimen">1.5</item>
+
+</resources>
